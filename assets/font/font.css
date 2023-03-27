@@ -1,0 +1,80 @@
+/*
++++++ FONTS USED IN PROJECT +++++
+--- POPPINS ---
+Font Weight: 600, 500, 400
+---------------
+----- Public Sans -----
+Font Weight: 800, 600, 500, 400
+-----------------------
+----- Sonsie One -----
+Font Weight: 400
+----------------------
++++++++++++++++++++++++++++++++++
+*/
+/* ========== Poppins ========== */
+@font-face {
+    font-family: "Poppins";
+    src: url("poppins/Poppins-SemiBold.woff2") format("woff2"),
+        url("poppins/Poppins-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("poppins/Poppins-Medium.woff2") format("woff2"),
+        url("poppins/Poppins-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("poppins/Poppins-Regular.woff2") format("woff2"),
+        url("poppins/Poppins-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+/* ===== Public Sans ===== */
+@font-face {
+    font-family: "Public Sans";
+    src: url("public-sans/PublicSans-ExtraBold.woff2") format("woff2"),
+        url("public-sans/PublicSans-ExtraBold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Public Sans";
+    src: url("public-sans/PublicSans-SemiBold.woff2") format("woff2"),
+        url("public-sans/PublicSans-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Public Sans";
+    src: url("public-sans/PublicSans-Medium.woff2") format("woff2"),
+        url("public-sans/PublicSans-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Public Sans";
+    src: url("public-sans/PublicSans-Regular.woff2") format("woff2"),
+        url("public-sans/PublicSans-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+/* ===== Sonsie One ===== */
+@font-face {
+    font-family: "Sonsie One";
+    src: url("sonsie-one/SonsieOne-Regular.woff2") format("woff2"),
+        url("sonsie-one/SonsieOne-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
