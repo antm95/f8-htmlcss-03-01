@@ -319,6 +319,83 @@ select {
 }
 /* ----- ----------- ----- */
 /* ===== ====== ===== */
+/* ===== MAIN ===== */
+/* ----- Brands ----- */
+.brands {
+    /* Box Model */
+    margin-top: 205px;
+}
+.brands-row {
+    /* Box Model */
+    padding: 75px 120px;
+    border-radius: 100px;
+    /* Color */
+    background-color: #e2eddf;
+}
+.brands__list,
+.brands__item {
+    /* Display */
+    display: flex;
+    align-items: center;
+    /* Color */
+    color: var(--primary-color);
+}
+.brands__list {
+    /* Display */
+    flex-wrap: wrap;
+    /* Box Model */
+    width: 100%;
+}
+.brands__item {
+    /* Display */
+    flex: 0 0 20%;
+    max-width: 20%;
+    justify-content: center;
+}
+.brands__item:first-child,
+.brands__item:nth-child(2) {
+    justify-content: flex-start;
+}
+.brands__item:nth-child(4),
+.brands__item:last-child {
+    justify-content: flex-end;
+}
+.brands__item:nth-child(1) .brands__logo-name {
+    /* Text */
+    font-weight: 500;
+    font-size: 3.1rem;
+}
+.brands__item:nth-child(2) .brands__logo-name {
+    /* Box Model */
+    margin-left: 10px;
+    /* Text */
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+.brands__item:nth-child(3) .brands__logo-name {
+    /* Box Model */
+    margin-left: 10px;
+    /* Color */
+    color: #163c35;
+    /* Text */
+    font-weight: 400;
+    font-size: 2.6rem;
+}
+.brands__item:nth-child(4) .brands__logo-name {
+    /* Text */
+    font-family: "Sonsie One", sans-serif;
+    font-weight: 400;
+    font-size: 2.3rem;
+}
+.brands__item:nth-child(5) .brands__logo-name {
+    /* Box Model */
+    margin-left: 10px;
+    /* Text */
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+/* ----- ------ ----- */
+/* ===== ==== ===== */
 /* ************************ */
 
 /* **************************** */
@@ -464,6 +541,79 @@ select {
         transform: rotate(180deg);
     }
     /* ----- ----------- ----- */
+    /* ======================= */
+    /* ===== MAIN ===== */
+    /* ----- Brands ----- */
+    .brands {
+        /* Box Model */
+        margin-top: 128px;
+    }
+    .brands-row {
+        /* Box Model */
+        padding: 55px 30px;
+        border-radius: 30px;
+    }
+    .brands__list {
+        justify-content: center;
+        row-gap: 25px;
+    }
+    .brands__item {
+        /* Display */
+        flex: 0 0 50%;
+        max-width: 50%;
+        justify-content: center;
+    }
+    .brands__item:first-child,
+    .brands__item:nth-child(2) {
+        justify-content: center;
+    }
+    .brands__item:nth-child(4),
+    .brands__item:last-child {
+        justify-content: flex-end;
+    }
+    .brands__item:nth-child(1) .brands__logo-name {
+        /* Text */
+        font-size: 2.4rem;
+    }
+    .brands__item:nth-child(2) .brands__logo-icon {
+        /* Box Model */
+        height: 35px;
+    }
+    .brands__item:nth-child(2) .brands__logo-name {
+        /* Text */
+        font-size: 1.9rem;
+    }
+    .brands__item:nth-child(3) {
+        /* Display */
+        justify-content: flex-start;
+    }
+    .brands__item:nth-child(3) .brands__logo-icon {
+        /* Box Model */
+        height: 30px;
+    }
+    .brands__item:nth-child(3) .brands__logo-name {
+        /* Box Model */
+        margin-left: 5px;
+        /* Text */
+        font-weight: 500;
+        font-size: 2rem;
+    }
+    .brands__item:nth-child(4) .brands__logo-name {
+        /* Text */
+        font-size: 1.7rem;
+    }
+    .brands__item:nth-child(5) .brands__logo-icon {
+        /* Box Model */
+        height: 30px;
+    }
+    .brands__item:nth-child(5) .brands__logo-name {
+        /* Box Model */
+        margin-left: 10px;
+        /* Text */
+        font-size: 2.2rem;
+    }
+    /* ----- ------ ----- */
+    /* ===== ==== ===== */
 }
 /* ************************ */
 /* #FEF6FB */
