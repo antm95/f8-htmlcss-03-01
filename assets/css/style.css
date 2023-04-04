@@ -299,6 +299,7 @@ select {
     z-index: -1;
     position: absolute;
     top: 122px;
+    left: 203px;
     width: 340px;
     height: 340px;
     border-radius: 50%;
@@ -918,6 +919,7 @@ select {
     .header-hero__bgc-blu {
         /* Positioning */
         top: 17px;
+        left: 61px;
         /* Box Model */
         width: 205px;
         height: 205px;
