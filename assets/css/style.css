@@ -1291,6 +1291,171 @@ select {
 }
 /* ----- ---- ----- */
 /* ===== ==== ===== */
+/* ===== FOOTER ===== */
+.ftr {
+    /* Box Model */
+    padding: 72px 0 50px;
+    margin-top: 100px;
+    /* Color */
+    background-color: var(--primary-color);
+}
+.ftr__row {
+    /* Display */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* Footer Contact */
+.ftr-contact {
+    /* Display */
+    flex: 0 0 37%;
+    max-width: 37%;
+}
+.ftr-contact__heading {
+    /* Color */
+    color: #fff;
+    /* Text */
+    font-weight: 500;
+    font-size: 3.2rem;
+}
+/* Footer Form */
+.ftr-form {
+    /* Display & Box Model */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.ftr-form__input {
+    /* Box Model */
+    width: 350px;
+    height: 40px;
+    padding: 0 15px;
+    border: none;
+    border-left: 1px solid #6a8383;
+    outline: none;
+    /* Color */
+    color: #fff;
+    background-color: transparent;
+    /* Text */
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1;
+}
+.ftr-form__input::placeholder {
+    /* Color */
+    color: #6a8383;
+    /* Text */
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1;
+}
+.ftr-form__submit {
+    /* Box Model */
+    border: none;
+    /* Color */
+    color: #c4c4c4;
+    background-color: transparent;
+    /* Other */
+    cursor: pointer;
+}
+.ftr-form__submit:hover {
+    /* Color */
+    color: #a75325;
+}
+.ftr-contact__line {
+    /* Box Model */
+    height: 1px;
+    margin-top: 20px;
+    /* Color */
+    background-color: #6a8383;
+}
+/* Footer Icon */
+.ftr-contact__icon {
+    /* Display & Box Model */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 47px;
+}
+.ftr-contact__social-list {
+    /* Display */
+    display: flex;
+    column-gap: 22px;
+    align-items: center;
+}
+.ftr-contact__social-link {
+    /* Display & Box Model */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border: 1px solid;
+    border-radius: 50%;
+    /* Color */
+    border-color: #265252;
+    /* Other */
+    transition: 0.3s;
+}
+.ftr-contact__social-link:hover {
+    /* Color */
+    background-color: #a75325;
+    border-color: #a75325;
+}
+.ftr-contact__social-logo {
+    /* Box Model */
+    width: 40%;
+    height: 40%;
+}
+.ftr-contact__menu-mobile {
+    /* Display */
+    display: none;
+    /* Color */
+    color: #fff;
+}
+/* Footer Navigation */
+.ftr-nav {
+    /* Display */
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 40%;
+    /* Text */
+    font-family: "Public Sans", sans-serif;
+}
+.ftr-nav__heading {
+    /* Color */
+    color: #fff;
+    /* Text */
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+.ftr-nav__list {
+    /* Box Model */
+    margin-top: 20px;
+}
+.ftr-nav__link {
+    /* Color */
+    color: #6a8383;
+    /* Text */
+    font-weight: 500;
+    line-height: 2.25;
+}
+.ftr__line {
+    /* Box Model */
+    width: 100%;
+    height: 1px;
+    margin-top: 45px;
+    /* Color */
+    background: linear-gradient(
+        90deg,
+        #143c3c 2.28%,
+        #295a5a 55.65%,
+        rgba(38, 82, 82, 0) 102.06%
+    );
+}
+/* ================== */
 /* ************************ */
 
 /* **************************** */
@@ -1921,5 +2086,55 @@ select {
     }
     /* ----- ---- ----- */
     /* ===== ==== ===== */
+    /* ===== FOOTER ===== */
+    .ftr {
+        /* Box Model */
+        padding: 95px 0 50px;
+        margin-top: 50px;
+    }
+    /* Footer Contact */
+    .ftr-contact {
+        /* Display */
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .ftr-contact__heading {
+        /* Text */
+        font-size: 2.4rem;
+    }
+    /* Footer Form */
+    .ftr-form {
+        /* Box Model */
+        margin-top: 35px;
+    }
+    .ftr-form__input {
+        /* Box Model */
+        padding: 0 10px;
+        /* Text */
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+    .ftr-form__input::placeholder {
+        /* Text */
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+    /* Footer Icon */
+    .ftr-contact__menu-mobile {
+        /* Display */
+        display: inline-block;
+    }
+    /* Footer Navigation */
+    .ftr-nav {
+        /* Display */
+        display: none;
+    }
+    .ftr__line {
+        /* Display */
+        display: none;
+    }
+    /* ================== */
 }
 /* ************************ */
