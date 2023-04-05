@@ -1062,6 +1062,79 @@ select {
     right: -55px;
 }
 /* ----- -------- ----- */
+/* ----- Share ----- */
+.share {
+    /* Box Model */
+    margin-top: 140px;
+    /* Text */
+    text-align: center;
+}
+.share__heading {
+    /* Box Model */
+    width: 520px;
+    margin: auto;
+}
+.share__desc {
+    /* Box Model */
+    width: 520px;
+    margin: 20px auto 0;
+    /* Color */
+    color: #7d8188;
+    /* Text */
+    font-weight: 500;
+    line-height: 1.625;
+}
+.share-list {
+    /* Display & Box Model */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.share-list__item {
+    /* Display & Box Model */
+    flex: 0 0 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 31%;
+    height: 362px;
+    border: 1.5px solid #cecece;
+    border-radius: 160px;
+    /* Other */
+    transition: 0.3s;
+}
+.share-list__item:hover {
+    /* Color */
+    background: #fff;
+    border-color: transparent;
+    box-shadow: 0px 36px 100px rgba(111, 120, 111, 0.2);
+    /* Other */
+    transform: translateY(-55px);
+}
+.share-list__title {
+    /* Box Model */
+    margin-top: 20px;
+    /* Color */
+    color: #152427;
+    /* Text */
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1;
+}
+.share-list__desc {
+    /* Box Model */
+    width: 75%;
+    margin-top: 12px;
+    /* Color */
+    color: #7d8188;
+    /* Text */
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.71;
+}
+/* ----- ----- ----- */
 /* ===== ==== ===== */
 /* ************************ */
 
@@ -1586,6 +1659,42 @@ select {
         width: 72px;
     }
     /* ----- -------- ----- */
+    /* ----- Share ----- */
+    .share {
+        /* Box Model */
+        margin-top: 50px;
+    }
+    .share__heading {
+        /* Box Model */
+        width: 275px;
+        margin: auto;
+        /* Text */
+        font-size: 3rem;
+        line-height: 1.33;
+    }
+    .share__desc {
+        /* Box Model */
+        width: 306px;
+        margin-top: 12px;
+        /* Text */
+        font-size: 1.4rem;
+        line-height: 1.71;
+    }
+    .share-list {
+        /* Box Model */
+        margin-top: 0;
+    }
+    .share-list__item {
+        /* Display & Box Model */
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    .share-list__item:hover {
+        /* Other */
+        transform: translateY(0);
+    }
+    /* ----- ----- ----- */
     /* ===== ==== ===== */
 }
 /* ************************ */
