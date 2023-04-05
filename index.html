@@ -621,6 +621,102 @@
                 </div>
             </section>
             <!-- ----- ------- ----- -->
+            <!-- ----- Projects ----- -->
+            <section class="project">
+                <div class="display-area">
+                    <div class="project-body">
+                        <div class="row project-row">
+                            <h2 class="section-heading project__heading">
+                                A quick glance of our past projects
+                            </h2>
+                            <div class="project-content">
+                                <p class="project__desc">
+                                    Are you strive for the fast project
+                                    simplicity and clarity. Great design is born
+                                    of those two things.
+                                </p>
+                                <a href="#!" class="project__link">
+                                    Browse all Projects
+                                    <svg
+                                        class="project__arrow"
+                                        width="22"
+                                        height="12"
+                                        viewBox="0 0 22 12"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M1 6.29415H21M21 6.29415L15.7059 1.00003M21 6.29415L15.7059 11"
+                                            stroke="currentColor"
+                                            stroke-width="1.5"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Project Media -->
+                        <div class="project-media">
+                            <video
+                                id="videoDemo"
+                                class="project__video"
+                                controls
+                            >
+                                <source
+                                    src="./assets/video/project-demo-video.mp4"
+                                    type="video/mp4"
+                                />
+                                Your browser does not support HTML video.
+                            </video>
+                            <button
+                                id="playBtn"
+                                class="project__play-btn"
+                                onclick="playFunction()"
+                            >
+                                <img
+                                    class="project__play-icon"
+                                    src="./assets/svg/play-icon.svg"
+                                    alt="Play Video Icon"
+                                />
+                            </button>
+                            <script>
+                                // Get the video
+                                var video =
+                                    document.getElementById("videoDemo");
+                                //  Get Play Button
+                                var btn = document.getElementById("playBtn");
+                                // Play Function
+                                video.removeAttribute("controls");
+                                function playFunction() {
+                                    if (video.paused) {
+                                        video.play();
+                                        btn.style.display = "none";
+                                        video.setAttribute(
+                                            "controls",
+                                            "controls"
+                                        );
+                                    } else {
+                                        video.pause();
+                                    }
+                                }
+                            </script>
+                        </div>
+                        <!-- Project Decor -->
+                        <img
+                            src="./assets/svg/project-decor-01.svg"
+                            alt=""
+                            class="project__decor"
+                        />
+                        <img
+                            src="./assets/svg/project-decor-02.svg"
+                            alt=""
+                            class="project__decor"
+                        />
+                    </div>
+                </div>
+            </section>
+            <!-- ----- -------- ----- -->
         </main>
         <!-- ===== ==== ===== -->
     </body>

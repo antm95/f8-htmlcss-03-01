@@ -944,6 +944,124 @@ select {
     margin-left: 225px;
 }
 /* ----- ------- ----- */
+/* ----- Projects ----- */
+.project {
+    /* Box Model */
+    padding-bottom: 65px;
+    margin-top: 150px;
+    /* Color */
+    background-color: var(--primary-color);
+}
+.project-body {
+    /* Positioning */
+    position: relative;
+}
+.project-row {
+    /* Display & Box Model */
+    justify-content: space-between;
+    padding-top: 116px;
+}
+.project__heading {
+    /* Positioning */
+    position: relative;
+    /* Box Model */
+    width: 457px;
+    /* Color */
+    color: #e7f9f9;
+}
+.project__heading::before {
+    /* Positioning */
+    position: absolute;
+    bottom: 20px;
+    right: 97px;
+    /* Display & Box Model */
+    display: inline-block;
+    content: "";
+    width: 66px;
+    height: 2px;
+    /* Color */
+    background-color: #83a17d;
+}
+.project-content {
+    /* Box Model */
+    width: 590px;
+    /* Text */
+    font-family: "Public Sans", sans-serif;
+}
+.project__desc {
+    /* Color */
+    color: #6a8383;
+    /* Text */
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.56;
+}
+.project__link {
+    /* Box Model */
+    display: block;
+    margin-top: 12px;
+    /* Color */
+    color: #fff;
+    /* Text */
+    font-weight: 500;
+    font-size: 1.8rem;
+    /* Other */
+    transition: 0.3s;
+}
+.project__link:hover {
+    /* Color */
+    color: #80a07b;
+}
+.project__arrow {
+    /* Box Model */
+    margin-left: 26px;
+}
+/* Project Media */
+.project-media {
+    /* Positioning */
+    position: relative;
+    /* Box Model */
+    margin-top: 72px;
+}
+.project__video {
+    /* Box Model */
+    width: 100%;
+    border-radius: 22px;
+}
+.project__play-btn {
+    /* Positioning */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* Box Model */
+    width: 118px;
+    height: 118px;
+    border: none;
+    border-radius: 50%;
+    margin: auto;
+    /* Color */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Other */
+    cursor: pointer;
+    transition: 0.3s;
+}
+.project__play-btn:hover {
+    background-color: #80a07b;
+}
+/* Project Decor */
+.project__decor {
+    /* Positioning */
+    position: absolute;
+    top: 130px;
+    right: -65px;
+}
+.project__decor:last-child {
+    top: 220px;
+    right: -55px;
+}
+/* ----- -------- ----- */
 /* ===== ==== ===== */
 /* ************************ */
 
@@ -1394,6 +1512,80 @@ select {
         margin-left: 0px;
     }
     /* ----- ------- ----- */
+    /* ----- Projects ----- */
+    .project {
+        /* Box Model */
+        padding-bottom: 30px;
+        margin-top: 50px;
+        /* Other */
+        overflow: hidden;
+    }
+    .project-row {
+        /* Box Model */
+        padding-top: 53px;
+    }
+    .project__heading {
+        /* Box Model */
+        width: 268px;
+        /* Text */
+        font-size: 3rem;
+        line-height: 1.33;
+    }
+    .project__heading::before {
+        /* Positioning */
+        bottom: 17px;
+        right: -50px;
+        /* Box Model */
+        width: 38px;
+    }
+    .project-content {
+        /* Box Model */
+        width: 233px;
+    }
+    .project__desc {
+        /* Box Model */
+        margin-top: 8px;
+        /* Text */
+        font-size: 1.4rem;
+        line-height: 1.71;
+    }
+    .project__link {
+        /* Box Model */
+        margin-top: 18px;
+    }
+    /* Project Media */
+    .project-media {
+        /* Positioning */
+        z-index: 1;
+        /* Box Model */
+        margin-top: 136px;
+    }
+    .project__play-btn {
+        /* Box Model */
+        width: 98px;
+        height: 98px;
+    }
+    .project__play-icon {
+        /* Box Model */
+        width: 30px;
+        height: 30px;
+    }
+    /* Project Decor */
+    .project__decor {
+        /* Positioning */
+        top: 260px;
+        right: -50px;
+        /* Box Model */
+        width: 380px;
+    }
+    .project__decor:last-child {
+        /* Positioning */
+        top: 310px;
+        right: 85px;
+        /* Box Model */
+        width: 72px;
+    }
+    /* ----- -------- ----- */
     /* ===== ==== ===== */
 }
 /* ************************ */
